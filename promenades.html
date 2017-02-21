@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="promenades.css"/>
+	<title>HKG</title>
+
+</head>
+<body>
+<nav>
+      <ul>
+        <li><a href="#"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Rooftops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+    <h2>PROMENADES // WATERFRONTS</h2>
+    <p>Where would you like to view the spectacular skyline of Hong Kong?</p>
+  </div>
+  <div id="contentContainer">
+  <div id="wrapper">
+    <a href="inspirationlake.html"><div id="itemOne" class="content">
+    <h3 class="white">Inspiration Lake</h3>
+    </div></a>
+    <a href=".html"><div id="itemTwo" class="content">
+    <h3>Kwun Tong promenade</h3>
+    </div></a>
+    <a href=".html"><div id="itemThree" class="content">
+    <h3 class="white">Tsing Yi waterfront promenade</h3>
+    </div></a>
+    <a href=".html"><div id="itemFour" class="content">
+    <h3>West Kowloon waterfront promenade</h3>
+    </div></a>
+  </div>
+  </div>
+  <div id="navLinks">
+    <ul>
+        <li class="itemLinks" data-pos="0px"></li>
+        <li class="itemLinks" data-pos="-720px"></li>
+        <li class="itemLinks" data-pos="-1440px"></li>
+        <li class="itemLinks" data-pos="-2160px"></li>
+    </ul>
+</div>
+
+<script>
+// just querying the DOM...like a boss!
+var links = document.querySelectorAll(".itemLinks");
+var wrapper = document.querySelector("#wrapper");
+ 
+// the activeLink provides a pointer to the currently displayed item
+var activeLink = 0;
+ 
+// setup the event listeners
+for (var i = 0; i < links.length; i++) {
+    var link = links[i];
+    link.addEventListener('click', setClickedItem, false);
+ 
+    // identify the item for the activeLink
+    link.itemID = i;
+}
+ 
+// set first item as active
+links[activeLink].classList.add("active");
+ 
+function setClickedItem(e) {
+    removeActiveLinks();
+ 
+    var clickedLink = e.target;
+    activeLink = clickedLink.itemID;
+ 
+    changePosition(clickedLink);
+}
+ 
+function removeActiveLinks() {
+    for (var i = 0; i < links.length; i++) {
+        links[i].classList.remove("active");
+    }
+}
+ 
+// Handle changing the slider position as well as ensure
+// the correct link is highlighted as being active
+function changePosition(link) {
+    var position = link.getAttribute("data-pos");
+ 
+    var translateValue = "translate3d(" + position + ", 0px, 0)";
+    wrapper.style[transformProperty] = translateValue;
+ 
+    link.classList.add("active");
+}
+ 
+//
+// Dealing with Transforms
+//
+var transforms = ["transform",
+            "msTransform",
+            "webkitTransform",
+            "mozTransform",
+            "oTransform"];
+ 
+var transformProperty = getSupportedPropertyName(transforms);
+ 
+// vendor prefix management
+function getSupportedPropertyName(properties) {
+    for (var i = 0; i < properties.length; i++) {
+        if (typeof document.body.style[properties[i]] != "undefined") {
+            return properties[i];
+        }
+    }
+    return null;
+}
+</script>

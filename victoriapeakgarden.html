@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Victoria Peak garden</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="victoriapeakgarden.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="parkss.html">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>Victoria Peak garden</span></h1>
+      <p class="page-description">When most people think of the peak, they think of the splendid views that can be seen from the sky terrace or the peak tower, but up the hill via mount austin road, there is a less crowded spot to watch the sunset, or simply to have a picnic. If you aren't a fan of sittin on grass, the park has plenty of benches that are intricately designed to sit on, and while you're here, you may even see several engaged couples having their wedding photos taken!</p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690034 copy.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690035 copy.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690036 copy.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>From the peak galleria, turn on to mount Austin road and walk uphill until you see the garden</li>
+      </ol>
+    </div>
+    <div class="map">
+ <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Quickly generate and embed a Google Map on your site!                 Click here                  Visit our website</a></small></div><div><small><a href="https://youtubeembedcode.com/en/">generate youtube code quick and easy</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(22.2742872,114.14641870000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.2742872,114.14641870000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Victoria Peak garden</strong><br>Mount Austin Rd, The Peak, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

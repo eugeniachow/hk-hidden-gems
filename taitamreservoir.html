@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Pedal boating at Tai Tam Reservoir</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="taitamreservoir.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="parks.html">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="fun.html">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>PEDAL BOATING</span></h1>
+      <p class="page-description">Pedal boating at wong chuk hang reservoir park is the ideal way to spend your afternoon away from the bustling cityside, and into the serene natural side of Hong Kong. For 80-120 dollars (depending on boat size and time), you can enjoy a peaceful ride on the green waters, while being able to appreciate the habitats of the sea animals living beneath your boat - including turtles! The pedal boats all provide shade, so you can enjoy this activity even during the summer.  </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5303.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_2343.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_2344.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5316.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5317.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_2355.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+    </div>
+
+    <script>
+    function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+    </script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+      </div>
+      <div class="i">
+      <ol>
+      <li>Take bus 6 or 66 from C entralexchange square bus terminus/bus 5 or 76 from Causeway Bay/bus 41A or 63 from North Point</li>
+      <li>Alight at Wong Nai Chung Reservoir Park bus stop (near the petrol station)</li>
+      </ol>
+    </div>
+    <div class="map">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Quickly generate and embed a Google Map on your site!                  Click here                  Visit our website</a></small></div><div><small><a href="https://embedtwitterwidget.com/en/">4 types of twitter widget that you can embed to your site.</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(22.256799,114.19454700000006),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.256799,114.19454700000006)});infowindow = new google.maps.InfoWindow({content:'<strong>Wong Nai Chung Reservoir park</strong><br>wong nai chung reservoir park, hong kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Shek O</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="sheko.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="#">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>PUI O BEACH</span></h1>
+      <p class="page-description">A beautiful stretch of clean white sand can be found on the south of lantau island, on an outlying island known as Pui O. This is a perfect spot to spend your day summer day, but regardless of the season, outdoor and water facilities can be rented to enhance your experience out on the beach. A serene hub for campers, you can also enjoy the company of several water buffalos while making your walk down to the nearby food store, where you can indulge in various snacks if you also decide on taking a walk around the village.  </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05316.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05338.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05341.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05331.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05315.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC05330.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+    </div>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take the First ferry from Central ferry pier (pier 6) to Mui Wo</li>
+      <li>Take bus 1 from Mui Wo bus terminus to Pui O beach.</li>
+      </ol>
+    </div>
+    <div class="map">
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Quickly generate and embed a Google Map on your site!                  Click here                  Visit our website</a></small></div><div><small><a href="https://youtubeembedcode.com/en/">Embed a youtube video onto your website easily.</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(22.2397114,113.97681319999992),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.2397114,113.97681319999992)});infowindow = new google.maps.InfoWindow({content:'<strong>Pui O beach</strong><br>Pui O beach, Lantau, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

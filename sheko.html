@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Shek O</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="sheko.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="#">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>SHEK O BEACH</span></h1>
+      <p class="page-description">Another one of the beaches in Hong Kong that is underappreciated due to its detachment from the center of Hong Kong, Shek O beach is no longer than a 45 minute bus ride that is away from Shau kei wan MTR station. On this beachside village, you can grab food from any nearby store (that includes cha chan tengs, Thai food, fruit stores, and even breakfast food) and make your way to the beach, which is completely safe as it is watched over by lifeguards. You may even rent out beach equipment to heighten your time spent in the crystalline waters of Shek O beach.</p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4705.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4729.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4588.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4751.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4705.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_4673.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+    </div>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take MTR to Shau Kei Wan station</li>
+      <li>Exit from exit A</li>
+      <li>Take mini bus 9 from bus terminus</li>
+      <li>Get off at the last stop and walk to the beach (you should be able to see it right away. If not, follow the crowd!)</li>
+      </ol>
+    </div>
+    <div class="map">
+   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-running-shoes-men-2016/">best running shoes for men 2016</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(22.22529754833747,114.23910355659179),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.22529754833747,114.23910355659179)});infowindow = new google.maps.InfoWindow({content:'<strong>Shek O</strong><br>Shek O, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

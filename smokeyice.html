@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Smokey Ice</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="smokeyice.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="parkss.html">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>Smokey Ice</span></h1>
+      <p class="page-description">Smokey Ice dessert is heaven to anyone who has a sweet tooth. Not only do they serve mouth watering desserts that suit everyone's wants, their desserts come in unique forms, taking the shape of typical meals, such as chocolate ice cream served as "steak", and banana served as "fries". If you ever happen to drop by D2 place one in Lai Chi Kok, Smokey Ice is not a restaurant you can miss! The steam extending from each person's dish won't fail to catch your eye each time you walk past.  </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03284.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03292.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03295.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03293.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03294.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC03296.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+    </div>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take the MTR to Lai chi kok station</li>
+      <li>Exit at D1, and walk to the first floor of D2 Place one mall</li>
+      </ol>
+    </div>
+    <div class="map">
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://biludlejning.world">website</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(22.336819015803783,114.15000716032715),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.336819015803783,114.15000716032715)});infowindow = new google.maps.InfoWindow({content:'<strong>Smokey Ice</strong><br>Shop 101, 1/F, D2 Place One, 9 Cheung Yee Street, Lai Chi Kok<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

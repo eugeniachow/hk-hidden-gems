@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Pak Shek Kok BBQ</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="pakshekkokbbq.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="parkss.html">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>Whitehead BBQ</span></h1>
+      <p class="page-description">This barbecue hotspot may sound far away, but is defintely worth the distance traveled to get there. It is the perfect location to appreciate Hong Kong's local food through cooking your own with friends and family. It is also decorated with golden lights that fill up the whole area, making it a beautiful place not only to have a meal, but to spend time with loved ones while watching the sunset beside you!</p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690009.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690007.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="000017690010.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take the MTR to Wu Kai Sha station</li>
+      <li>Walk to Whitehead, Pak Shek Kok</li>
+      </ol>
+    </div>
+    <div class="map">
+ <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Quickly generate and embed a Google Map on your site!                 Click here                  Visit our website</a></small></div><div><small><a href="https://embedtwitterwidget.com/en/">Free twitter wiget generator -> Try now</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(22.431769906034027,114.24418096826173),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.431769906034027,114.24418096826173)});infowindow = new google.maps.InfoWindow({content:'<strong>Pak Shek Kok BBQ</strong><br>STT 1950, Whitehead, Ma On Shan, NT, Ma On Shan, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

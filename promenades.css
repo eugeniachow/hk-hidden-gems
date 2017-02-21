@@ -1,0 +1,166 @@
+body {
+	height: 1778px;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color:rgb(46,105,163);
+}
+
+h2 {
+	font-size: 56px;
+	font-family: "Dax", FF din, Palatino, 'Palatino Linotype', serif;
+}
+
+
+.hero {
+	padding: 2px 0;
+	margin: 0px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color: #ffffff;
+   background-color:  #DA70D6;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+
+nav {
+  background-color: #F3F3F3;
+  text-align: left;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#wrapper {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 720px;
+    height: 490px;
+    white-space: normal;
+    background-repeat: no-repeat;
+
+}
+#itemOne {
+    /*background-color: #ADFF2F;*/
+    background-image: url("IMG_4942.jpg");
+    background-size:720px 490px;
+}
+#itemTwo {
+ /*   background-color: #FF7F50;*/
+    background-image: url("IMG_5519.jpg");
+    background-size:720px 490px;
+}
+#itemThree {
+    /*background-color: #1E90FF;*/
+    background-image: url("IMG_4926.jpg");
+    background-size:720px 490px;
+}
+#itemFour {
+/*    background-color: #DC143C;*/
+    background-image: url("//www.kirupa.com/images/graySquare.png");
+    background-size:720px 490px;
+}
+
+#contentContainer {
+    width: 720px;
+    height: 490px;
+    border: 2px black solid;
+    overflow: hidden;
+    margin-left:290px;
+    margin-top:20px;
+}
+
+#navLinks {
+    text-align: center;
+    width: 550px;
+    margin-left:360px;
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+            #navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }
+/*
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.head { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h3 {
+  color:black;
+}
+
+.white{
+  color:white;
+}
+
+

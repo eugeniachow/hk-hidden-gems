@@ -1,0 +1,81 @@
+body {
+	height: 1778px;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color:rgb(46,105,163);
+}
+
+h2 {
+	font-size: 56px;
+	font-family: "Dax", FF din, Palatino, 'Palatino Linotype', serif;
+}
+
+
+.hero {
+	padding: 2px 0;
+	margin: 0px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  color: #ffffff;
+   background-color: #1589FF;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+
+nav {
+  background-color: #F3F3F3;
+  text-align: left;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #FDFDFD
+}
+
+.gallery-item {
+  margin: 30px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+}
+
+
+
+
+

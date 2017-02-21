@@ -1,0 +1,139 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');*/
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+  background-color:  #80002A ;
+  padding: 5px;
+}
+
+h1 span {
+  /*background-color:white;*/
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.page-description {
+/*  border: 1px solid #000;*/
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+  background-color:   #008055;
+}
+
+.gallery {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*background-image: url('http://cache-graphicslib.viator.com/graphicslib/thumbs674x446/3675/SITours/hong-kong-island-half-day-tour-in-hong-kong-114439.jpg');
+  */
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+  height:250px;
+  width:340px;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+
+}
+
+nav ul {
+  display: inline;
+}
+
+.home-btn {
+  float: left;
+}
+
+.home-btn a {
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+
+}
+
+.home-btn a:active {
+  top: 2px;
+
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.instructions {
+  text-align: center;
+  background-color: #80002A;
+  margin: 1px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.footer {
+  border: 1px solid #000;
+}
+
+.list {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+p {
+  text-align: center;
+}
+
+i {
+  background-color: #f0db9f;
+  margin: 1px;
+  text-align: center;
+}
+

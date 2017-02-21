@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>Lifetastic</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="lifetastic.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="parkss.html">Parks</a></li>
+        <li><a href="promenades.html">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>Lifetastic</span></h1>
+      <p class="page-description">Situated in the western, less populated side of Hong Kong, Lifetastic is a beautifully designed restaurant that comes with new decorations per season or holiday to fit the mood. Visited most for their strawberry watermelon cake, they also serve many other delicious dishes including a range of pastas, drinks, and desserts. While having a meal, you may even relax on the sofa for a chat with friends - With such mesmerising surroundings and mouth-watering food, once you step in, you'll never want to leave! </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC02754.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC02791.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="DSC02755.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnailspecial" src="DSC02756.jpg" onmouseover="bigIg(this)" onmouseout="normalIg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnailspecial" src="DSC02751.jpg" onmouseover="bigIg(this)" onmouseout="normalIg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnailspecial" src="DSC02767.jpg" onmouseover="bigIg(this)" onmouseout="normalIg(this)"/>
+      </figure>
+    </div>
+
+         <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+   <script>
+function bigIg(x) {
+    x.style.height = "315px";
+    x.style.width = "300px";
+}
+
+function normalIg(x) {
+    x.style.height = "310px";
+    x.style.width = "290px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take the MTR to HKU station</li>
+      <li>Exit from exit D and walk up a small hill to the restaurant</li>
+      </ol>
+    </div>
+    <div class="map">
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://werkenbij.rebelinternet.nl/hr-manager/">HR Manager</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(22.285559,114.13568699999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.285559,114.13568699999996)});infowindow = new google.maps.InfoWindow({content:'<strong>Lifetastic</strong><br>31-37 Hill Road, Shek Tong Tsui, Western District, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

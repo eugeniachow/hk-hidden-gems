@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Ham Tin beach</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="hamtinbeach.css">
+</head>
+
+<body>
+<nav>
+      <ul>
+        <li><a href="newy.html"><b>Home</b></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="foody.html">Food</a></li>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="#">Parks</a></li>
+        <li><a href="#">Promenades</a></li>
+        <li><a href="#">Shops</a></li>
+        <li><a href="#">Fun</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="page-title"><span>HAM TIN BEACH</span></h1>
+      <p class="page-description">Only a thirty minute speedboat ride away from Sai Kung ferry pier, Ham Tin beach is known to be one of the cleanest beaches in Hong Kong! Secluded as it is, the was is crystal clear, and the sand is still visible when you're past waist-deep into the water. There is no better place for you to freely enjoy the summer sun without being bothered by tourists, while sunbathing on the crisp white sand of Ham Tin.  </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5621.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5628.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5631.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5633.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5627.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="IMG_5629.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/>
+      </figure>
+    </div>
+
+    <script>
+function bigImg(x) {
+    x.style.height = "260px";
+    x.style.width = "350px";
+}
+
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "340px";
+}
+</script>
+
+    <div class="instructions">
+      <h3>How to get there:</h3>
+    </div>
+    <div class="i">
+      <ol>
+      <li>Take MTR to Choi Hung station</li>
+      <li>Exit from exit A2 </li>
+      <li>Take mini bus 1A or bus 92 from bus terminus</li>
+      <li>Get off at the last stop and take any of the speed boats by the ferry pier that takes you to Ham Tin beach (cost will be around $100-$200)</li>
+      </ol>
+    </div>
+    <div class="map">
+   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:1300px;'><div id='gmap_canvas' style='height:440px;width:1300px;'></div><div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div><div><small><a href="https://top10geeks.com/top-10-best-running-shoes-men-2016/">top 10 running shoes for men</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(22.411344,114.37580500000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(22.411344,114.37580500000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Ham Tin beach</strong><br>Ham tin, Sai Kung, Hong Kong<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+  </body>
+</html>

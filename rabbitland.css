@@ -1,0 +1,122 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');*/
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+  background-color: #C698BF;
+  border: 1px solid #000;
+}
+
+.page-description {
+/*  border: 1px solid #000;*/
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+  background-color: #FDD7E4;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*background-image: url('http://cache-graphicslib.viator.com/graphicslib/thumbs674x446/3675/SITours/hong-kong-island-half-day-tour-in-hong-kong-114439.jpg');
+  */
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+  height:250px;
+  width:340px;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+
+}
+
+nav ul {
+  display: inline;
+}
+
+.home-btn {
+  float: left;
+}
+
+.home-btn a {
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+
+}
+
+.home-btn a:active {
+  top: 2px;
+
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.instructions {
+  text-align: center;
+  background-color: #C698BF;
+  margin: 1px;
+  border: 1px solid #000;
+}
+
+h3 {
+  text-align: center;
+}
+
+.footer {
+  border: 1px solid #000;
+}
+
+h1 {
+  background-color: #C698BF;
+}
+
+p { 
+text-align: center; 
+}
+

@@ -1,0 +1,86 @@
+.enter {
+	text-decoration:none;
+    color: black;
+    font-family: Times;
+    text-align: auto;
+    font-size: 36px;	
+    height: 50px;
+    width: 120px;
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 5px;
+    margin: auto;
+    text-align:center;
+}
+
+.map {
+	width:850px;
+	height:650px;
+	border-style: solid;
+	border: 0.1px black solid;
+}
+
+table, td {
+	border: 1px black solid;
+}
+
+#left {
+	position: absolute;
+	width: 30%;
+	margin: 20px 50px 10px 5px;
+	padding: 120px 0px 90px 10px;
+}
+
+#right {
+	position: absolute;
+	float: right;
+	left: 33%;
+	width: 80%;
+	height: 10%;
+}
+
+.flag {
+	width:260x;
+	height:160px;
+	border-style: solid;
+	border: 1px black solid;
+}
+
+.parks {
+	text-decoration:none;
+    color: black;
+    font-family: Times;
+    font-size: 36px;	
+    height: 165px;
+    width: 170px;
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 100%;
+    margin: auto;
+    text-align:center;
+    position: absolute;
+    left: 10%;
+}
+
+.food {
+	text-decoration:none;
+    color: black;
+    font-family: Times;
+    font-size: 36px;	
+    height: 165px;
+    width: 170px;
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 100%;
+    margin: auto;
+    text-align:center;
+    position: absolute;
+	left: 30%;
+}
+
+.bubble {
+	padding-top: 50px;
+}
